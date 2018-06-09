@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
     private void initializeContent() {
         //Set up RecyclerView with a layout manager
         final RecyclerView recyclerImages = (RecyclerView) findViewById(R.id.list_images);
-        final GridLayoutManager imagesLayoutManager = new GridLayoutManager(this, 3); //2 columns
+        final GridLayoutManager imagesLayoutManager = new GridLayoutManager(this, 3); //3 columns
         recyclerImages.setLayoutManager(imagesLayoutManager);
 
         //Set field for our recycler adapter
