@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FlickrSearch</string>
+    <string name="image_search">Image Search</string>
+</resources>
